@@ -26,7 +26,7 @@ Just download file `main_blips.lua` and put it in your project directory. it wil
 Create a new blipservice using the method `create`, the method takes a table with the following properties: element, blipsize, icon. For example:
 
 ```lua
-    local Blip = Blips:create(element, size, icon)
+local Blip = Blips:create(element, size, icon)
 ```
 
 ## Instantiating
@@ -34,8 +34,8 @@ Create a new blipservice using the method `create`, the method takes a table wit
 You can start it either outside **OnMarkerHit** or inside using the `create` method to instantiate it. For Example:
 
 ```lua
-    local vehicle = createVehicle(522, 2329.571, -1616.674, 5.726)
-    local Blip = Blips:create(vehicle, 20, 'assets/icons/vehicle.png')
+local vehicle = createVehicle(522, 2329.571, -1616.674, 5.726)
+local Blip = Blips:create(vehicle, 20, 'assets/icons/vehicle.png')
 ```
 
 ## GetDistanceBlip
